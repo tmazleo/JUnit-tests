@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42359ec2-5cc4-4737-96f7-a1141919a6b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/ExConta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestContaCompara.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestContaCompara.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ContaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ContaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,9 +94,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.ContaTest" />
+        <item itemvalue="JUnit.ContaTest.activatedAccountDeposit" />
         <item itemvalue="JUnit.ContaTest.inactivatedAccountNotDeposit" />
         <item itemvalue="JUnit.ContaTest.activatedAccountSaqAndValueSmaller" />
-        <item itemvalue="JUnit.ContaTest.activatedAccountDeposit" />
         <item itemvalue="Application.TestContaCompara" />
       </list>
     </recent_temporary>

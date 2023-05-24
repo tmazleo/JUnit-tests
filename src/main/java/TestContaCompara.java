@@ -1,5 +1,7 @@
+import exceptions.ExConta;
+
 public class TestContaCompara {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExConta {
 
         //ativo
         Conta conta = new Conta();

@@ -1,3 +1,5 @@
+import exceptions.ExConta;
+
 public class Conta {
 
     private double saldo;
@@ -13,15 +15,20 @@ public class Conta {
         this.ativo = false;
     }
 
-    public void depositar(double valor) {
+    public void depositar(double valor) throws ExConta {
         if (this.ativo) {
             this.saldo += valor;
+        }else {
+            throw new ExConta(saldo,valor);
         }
     }
 
-    public void sacar(double valor) {
-        if(this.ativo && (this.saldo - valor >= 0)) {
-            this.saldo -= valor;
-        }
+    public void sacar(double valor) throws ExConta{
+            if(this.ativo && (this.saldo - valor >= 0)) {
+                this.saldo -= valor;
+            } else {
+                throw new ExConta(saldo,valor);
+            }
+
     }
 }
